@@ -1,0 +1,6 @@
+framework module Pods_Skyscanner {
+  umbrella header "Pods-Skyscanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

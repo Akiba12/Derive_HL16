@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D609D1C829EE400B6E6A2 /* WIKITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D609C1C829EE400B6E6A2 /* WIKITViewController.swift */; };
+		840D609F1C829FA200B6E6A2 /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D609E1C829FA200B6E6A2 /* WikiData.swift */; };
+		840D60A61C82A5B000B6E6A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D60A41C82A5B000B6E6A2 /* Interface.storyboard */; };
+		840D60A81C82A5B000B6E6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D60A71C82A5B000B6E6A2 /* Assets.xcassets */; };
+		840D60AF1C82A5B100B6E6A2 /* Skyscanner_Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 840D60AE1C82A5B000B6E6A2 /* Skyscanner_Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		840D60B41C82A5B100B6E6A2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D60B31C82A5B100B6E6A2 /* InterfaceController.swift */; };
+		840D60B61C82A5B100B6E6A2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D60B51C82A5B100B6E6A2 /* ExtensionDelegate.swift */; };
+		840D60B81C82A5B100B6E6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D60B71C82A5B100B6E6A2 /* Assets.xcassets */; };
+		840D60BC1C82A5B100B6E6A2 /* Skyscanner_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 840D60A21C82A5B000B6E6A2 /* Skyscanner_Watch.app */; };
+		84803EE11C82AEA700FDAD67 /* P2PKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84803EE01C82AEA700FDAD67 /* P2PKit.framework */; };
+		CB31E05F59EA39681790C613 /* Pods_Skyscanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A60757679BCBE4D5BB05098 /* Pods_Skyscanner.framework */; };
+		E181FC7182F44E357E8F483C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4A89015AF6C410BC669B65 /* Pods.framework */; };
+		EF1946C91C82E94800ECAF75 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1946C81C82E94800ECAF75 /* MainTableViewCell.swift */; };
+		EF1946CB1C82F54300ECAF75 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1946CA1C82F54300ECAF75 /* FacebookViewController.swift */; };
+		EF1FA50C1C825A070054BA41 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FA50B1C825A070054BA41 /* DetailViewController.swift */; };
+		EF1FA50E1C826DA80054BA41 /* UnderlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FA50D1C826DA80054BA41 /* UnderlineButton.swift */; };
+		EF1FA5101C8287BB0054BA41 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FA50F1C8287BA0054BA41 /* FlightTableViewCell.swift */; };
+		EF1FA5121C82E25D0054BA41 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FA5111C82E25D0054BA41 /* Decode.swift */; };
+		EF1FA5141C82E2890054BA41 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FA5131C82E2890054BA41 /* Networking.swift */; };
+		EF1FA5171C82E3090054BA41 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FA5151C82E3090054BA41 /* FBSDKCoreKit.framework */; };
+		EF1FA5181C82E3090054BA41 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FA5161C82E3090054BA41 /* FBSDKLoginKit.framework */; };
+		EFCB05FB1C82160F002938A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB05FA1C82160F002938A3 /* AppDelegate.swift */; };
+		EFCB05FD1C82160F002938A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB05FC1C82160F002938A3 /* ViewController.swift */; };
+		EFCB06001C82160F002938A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB05FE1C82160F002938A3 /* Main.storyboard */; };
+		EFCB06021C82160F002938A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCB06011C82160F002938A3 /* Assets.xcassets */; };
+		EFCB06051C82160F002938A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB06031C82160F002938A3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840D60B01C82A5B100B6E6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB05EF1C82160F002938A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840D60AD1C82A5B000B6E6A2;
+			remoteInfo = "Skyscanner_Watch Extension";
+		};
+		840D60BA1C82A5B100B6E6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB05EF1C82160F002938A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840D60A11C82A5B000B6E6A2;
+			remoteInfo = Skyscanner_Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840D60C01C82A5B100B6E6A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				840D60AF1C82A5B100B6E6A2 /* Skyscanner_Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D60C41C82A5B100B6E6A2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				840D60BC1C82A5B100B6E6A2 /* Skyscanner_Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A60757679BCBE4D5BB05098 /* Pods_Skyscanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skyscanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D609C1C829EE400B6E6A2 /* WIKITViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIKITViewController.swift; sourceTree = "<group>"; };
+		840D609E1C829FA200B6E6A2 /* WikiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiData.swift; sourceTree = "<group>"; };
+		840D60A21C82A5B000B6E6A2 /* Skyscanner_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyscanner_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D60A51C82A5B000B6E6A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		840D60A71C82A5B000B6E6A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840D60A91C82A5B000B6E6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D60AE1C82A5B000B6E6A2 /* Skyscanner_Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Skyscanner_Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D60B31C82A5B100B6E6A2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		840D60B51C82A5B100B6E6A2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		840D60B71C82A5B100B6E6A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840D60B91C82A5B100B6E6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84803EE01C82AEA700FDAD67 /* P2PKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2PKit.framework; sourceTree = "<group>"; };
+		B0695051FA40F7DBC8979E35 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B0B970DA3C35C4437483B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EF1946C81C82E94800ECAF75 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		EF1946CA1C82F54300ECAF75 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		EF1FA50B1C825A070054BA41 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF1FA50D1C826DA80054BA41 /* UnderlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineButton.swift; sourceTree = "<group>"; };
+		EF1FA50F1C8287BA0054BA41 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		EF1FA5111C82E25D0054BA41 /* Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
+		EF1FA5131C82E2890054BA41 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EF1FA5151C82E3090054BA41 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EF1FA5161C82E3090054BA41 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EFCB05F71C82160F002938A3 /* Skyscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB05FA1C82160F002938A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFCB05FC1C82160F002938A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFCB05FF1C82160F002938A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCB06011C82160F002938A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCB06041C82160F002938A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCB06061C82160F002938A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCB06111C821911002938A3 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		FC4A89015AF6C410BC669B65 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840D60AB1C82A5B000B6E6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB05F41C82160F002938A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84803EE11C82AEA700FDAD67 /* P2PKit.framework in Frameworks */,
+				EF1FA5171C82E3090054BA41 /* FBSDKCoreKit.framework in Frameworks */,
+				EF1FA5181C82E3090054BA41 /* FBSDKLoginKit.framework in Frameworks */,
+				E181FC7182F44E357E8F483C /* Pods.framework in Frameworks */,
+				CB31E05F59EA39681790C613 /* Pods_Skyscanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2D60264203B500C4C883BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0695051FA40F7DBC8979E35 /* Pods.debug.xcconfig */,
+				D5B0B970DA3C35C4437483B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		840D60A31C82A5B000B6E6A2 /* Skyscanner_Watch */ = {
+			isa = PBXGroup;
+			children = (
+				840D60A41C82A5B000B6E6A2 /* Interface.storyboard */,
+				840D60A71C82A5B000B6E6A2 /* Assets.xcassets */,
+				840D60A91C82A5B000B6E6A2 /* Info.plist */,
+			);
+			path = Skyscanner_Watch;
+			sourceTree = "<group>";
+		};
+		840D60B21C82A5B100B6E6A2 /* Skyscanner_Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				840D60B31C82A5B100B6E6A2 /* InterfaceController.swift */,
+				840D60B51C82A5B100B6E6A2 /* ExtensionDelegate.swift */,
+				840D60B71C82A5B100B6E6A2 /* Assets.xcassets */,
+				840D60B91C82A5B100B6E6A2 /* Info.plist */,
+			);
+			path = "Skyscanner_Watch Extension";
+			sourceTree = "<group>";
+		};
+		EED3C03450937DF3F809227C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A89015AF6C410BC669B65 /* Pods.framework */,
+				1A60757679BCBE4D5BB05098 /* Pods_Skyscanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFCB05EE1C82160F002938A3 = {
+			isa = PBXGroup;
+			children = (
+				EFCB05F91C82160F002938A3 /* Skyscanner */,
+				840D60A31C82A5B000B6E6A2 /* Skyscanner_Watch */,
+				840D60B21C82A5B100B6E6A2 /* Skyscanner_Watch Extension */,
+				EFCB05F81C82160F002938A3 /* Products */,
+				5E2D60264203B500C4C883BE /* Pods */,
+				EED3C03450937DF3F809227C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCB05F81C82160F002938A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB05F71C82160F002938A3 /* Skyscanner.app */,
+				840D60A21C82A5B000B6E6A2 /* Skyscanner_Watch.app */,
+				840D60AE1C82A5B000B6E6A2 /* Skyscanner_Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCB05F91C82160F002938A3 /* Skyscanner */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FA5111C82E25D0054BA41 /* Decode.swift */,
+				EF1FA5131C82E2890054BA41 /* Networking.swift */,
+				EFCB05FA1C82160F002938A3 /* AppDelegate.swift */,
+				EFCB05FC1C82160F002938A3 /* ViewController.swift */,
+				EF1946CA1C82F54300ECAF75 /* FacebookViewController.swift */,
+				EF1FA50B1C825A070054BA41 /* DetailViewController.swift */,
+				EF1FA50D1C826DA80054BA41 /* UnderlineButton.swift */,
+				840D609C1C829EE400B6E6A2 /* WIKITViewController.swift */,
+				840D609E1C829FA200B6E6A2 /* WikiData.swift */,
+				EF1FA50F1C8287BA0054BA41 /* FlightTableViewCell.swift */,
+				EF1946C81C82E94800ECAF75 /* MainTableViewCell.swift */,
+				EFCB06111C821911002938A3 /* Bridging-Header.h */,
+				EFCB05FE1C82160F002938A3 /* Main.storyboard */,
+				EFCB06011C82160F002938A3 /* Assets.xcassets */,
+				EFCB06031C82160F002938A3 /* LaunchScreen.storyboard */,
+				EFCB06061C82160F002938A3 /* Info.plist */,
+				EFCB060C1C821747002938A3 /* Frameworks */,
+			);
+			path = Skyscanner;
+			sourceTree = "<group>";
+		};
+		EFCB060C1C821747002938A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FA5151C82E3090054BA41 /* FBSDKCoreKit.framework */,
+				EF1FA5161C82E3090054BA41 /* FBSDKLoginKit.framework */,
+				84803EE01C82AEA700FDAD67 /* P2PKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840D60A11C82A5B000B6E6A2 /* Skyscanner_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D60C11C82A5B100B6E6A2 /* Build configuration list for PBXNativeTarget "Skyscanner_Watch" */;
+			buildPhases = (
+				840D60A01C82A5B000B6E6A2 /* Resources */,
+				840D60C01C82A5B100B6E6A2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840D60B11C82A5B100B6E6A2 /* PBXTargetDependency */,
+			);
+			name = Skyscanner_Watch;
+			productName = Skyscanner_Watch;
+			productReference = 840D60A21C82A5B000B6E6A2 /* Skyscanner_Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		840D60AD1C82A5B000B6E6A2 /* Skyscanner_Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D60BD1C82A5B100B6E6A2 /* Build configuration list for PBXNativeTarget "Skyscanner_Watch Extension" */;
+			buildPhases = (
+				840D60AA1C82A5B000B6E6A2 /* Sources */,
+				840D60AB1C82A5B000B6E6A2 /* Frameworks */,
+				840D60AC1C82A5B000B6E6A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skyscanner_Watch Extension";
+			productName = "Skyscanner_Watch Extension";
+			productReference = 840D60AE1C82A5B000B6E6A2 /* Skyscanner_Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		EFCB05F61C82160F002938A3 /* Skyscanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB06091C82160F002938A3 /* Build configuration list for PBXNativeTarget "Skyscanner" */;
+			buildPhases = (
+				D7FF5C201B41937899517C1E /* Check Pods Manifest.lock */,
+				EFCB05F31C82160F002938A3 /* Sources */,
+				EFCB05F41C82160F002938A3 /* Frameworks */,
+				EFCB05F51C82160F002938A3 /* Resources */,
+				0E7D68300EDFF6F61FC149F8 /* Embed Pods Frameworks */,
+				C1D77FDA6C3AF432FE94F71F /* Copy Pods Resources */,
+				840D60C41C82A5B100B6E6A2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840D60BB1C82A5B100B6E6A2 /* PBXTargetDependency */,
+			);
+			name = Skyscanner;
+			productName = Skyscanner;
+			productReference = EFCB05F71C82160F002938A3 /* Skyscanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCB05EF1C82160F002938A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Samuel Laska";
+				TargetAttributes = {
+					840D60A11C82A5B000B6E6A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YLZ99ZSP6G;
+					};
+					840D60AD1C82A5B000B6E6A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YLZ99ZSP6G;
+					};
+					EFCB05F61C82160F002938A3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EFCB05F21C82160F002938A3 /* Build configuration list for PBXProject "Skyscanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCB05EE1C82160F002938A3;
+			productRefGroup = EFCB05F81C82160F002938A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCB05F61C82160F002938A3 /* Skyscanner */,
+				840D60A11C82A5B000B6E6A2 /* Skyscanner_Watch */,
+				840D60AD1C82A5B000B6E6A2 /* Skyscanner_Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840D60A01C82A5B000B6E6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D60A81C82A5B000B6E6A2 /* Assets.xcassets in Resources */,
+				840D60A61C82A5B000B6E6A2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840D60AC1C82A5B000B6E6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D60B81C82A5B100B6E6A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB05F51C82160F002938A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB06051C82160F002938A3 /* LaunchScreen.storyboard in Resources */,
+				EFCB06021C82160F002938A3 /* Assets.xcassets in Resources */,
+				EFCB06001C82160F002938A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E7D68300EDFF6F61FC149F8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyscanner/Pods-Skyscanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D77FDA6C3AF432FE94F71F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyscanner/Pods-Skyscanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FF5C201B41937899517C1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840D60AA1C82A5B000B6E6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D60B61C82A5B100B6E6A2 /* ExtensionDelegate.swift in Sources */,
+				840D60B41C82A5B100B6E6A2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB05F31C82160F002938A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FA50C1C825A070054BA41 /* DetailViewController.swift in Sources */,
+				EFCB05FD1C82160F002938A3 /* ViewController.swift in Sources */,
+				EF1FA50E1C826DA80054BA41 /* UnderlineButton.swift in Sources */,
+				EF1946CB1C82F54300ECAF75 /* FacebookViewController.swift in Sources */,
+				EF1FA5141C82E2890054BA41 /* Networking.swift in Sources */,
+				EF1946C91C82E94800ECAF75 /* MainTableViewCell.swift in Sources */,
+				840D609D1C829EE400B6E6A2 /* WIKITViewController.swift in Sources */,
+				EF1FA5121C82E25D0054BA41 /* Decode.swift in Sources */,
+				840D609F1C829FA200B6E6A2 /* WikiData.swift in Sources */,
+				EFCB05FB1C82160F002938A3 /* AppDelegate.swift in Sources */,
+				EF1FA5101C8287BB0054BA41 /* FlightTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840D60B11C82A5B100B6E6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840D60AD1C82A5B000B6E6A2 /* Skyscanner_Watch Extension */;
+			targetProxy = 840D60B01C82A5B100B6E6A2 /* PBXContainerItemProxy */;
+		};
+		840D60BB1C82A5B100B6E6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840D60A11C82A5B000B6E6A2 /* Skyscanner_Watch */;
+			targetProxy = 840D60BA1C82A5B100B6E6A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840D60A41C82A5B000B6E6A2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840D60A51C82A5B000B6E6A2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCB05FE1C82160F002938A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCB05FF1C82160F002938A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCB06031C82160F002938A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCB06041C82160F002938A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840D60BE1C82A5B100B6E6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Skyscanner_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		840D60BF1C82A5B100B6E6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Skyscanner_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		840D60C21C82A5B100B6E6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Skyscanner_Watch_Extension;
+				INFOPLIST_FILE = Skyscanner_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		840D60C31C82A5B100B6E6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Skyscanner_Watch_Extension;
+				INFOPLIST_FILE = Skyscanner_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		EFCB06071C82160F002938A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCB06081C82160F002938A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCB060A1C82160F002938A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0695051FA40F7DBC8979E35 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/samuellaska/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Skyscanner",
+				);
+				INFOPLIST_FILE = Skyscanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Skyscanner/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EFCB060B1C82160F002938A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B0B970DA3C35C4437483B3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/samuellaska/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Skyscanner",
+				);
+				INFOPLIST_FILE = Skyscanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuellaska.Skyscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Skyscanner/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840D60BD1C82A5B100B6E6A2 /* Build configuration list for PBXNativeTarget "Skyscanner_Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D60BE1C82A5B100B6E6A2 /* Debug */,
+				840D60BF1C82A5B100B6E6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D60C11C82A5B100B6E6A2 /* Build configuration list for PBXNativeTarget "Skyscanner_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D60C21C82A5B100B6E6A2 /* Debug */,
+				840D60C31C82A5B100B6E6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB05F21C82160F002938A3 /* Build configuration list for PBXProject "Skyscanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB06071C82160F002938A3 /* Debug */,
+				EFCB06081C82160F002938A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB06091C82160F002938A3 /* Build configuration list for PBXNativeTarget "Skyscanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB060A1C82160F002938A3 /* Debug */,
+				EFCB060B1C82160F002938A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCB05EF1C82160F002938A3 /* Project object */;
+}
